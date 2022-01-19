@@ -8,16 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		824F8DA527985C9A00F6AB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DA427985C9A00F6AB07 /* AppDelegate.swift */; };
-		824F8DA927985C9A00F6AB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DA827985C9A00F6AB07 /* ViewController.swift */; };
 		824F8DAE27985C9E00F6AB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824F8DAD27985C9E00F6AB07 /* Assets.xcassets */; };
+		824F8DC027985F7B00F6AB07 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DBF27985F7B00F6AB07 /* TabBarController.swift */; };
+		824F8DC32798601600F6AB07 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DC22798601600F6AB07 /* MediaViewController.swift */; };
+		824F8DC52798606000F6AB07 /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DC42798606000F6AB07 /* ForYouViewController.swift */; };
+		824F8DC72798609C00F6AB07 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DC62798609C00F6AB07 /* AlbumsViewController.swift */; };
+		824F8DC9279860E000F6AB07 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824F8DC8279860E000F6AB07 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		824F8DA127985C9A00F6AB07 /* HW13 photo albums GIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW13 photo albums GIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		824F8DA427985C9A00F6AB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		824F8DA827985C9A00F6AB07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		824F8DAD27985C9E00F6AB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824F8DB227985C9E00F6AB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824F8DBF27985F7B00F6AB07 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		824F8DC22798601600F6AB07 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		824F8DC42798606000F6AB07 /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
+		824F8DC62798609C00F6AB07 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		824F8DC8279860E000F6AB07 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,6 @@
 			children = (
 				824F8DB927985DBF00F6AB07 /* Resources */,
 				824F8DB827985DB700F6AB07 /* Sources */,
-				824F8DA827985C9A00F6AB07 /* ViewController.swift */,
 			);
 			path = "HW13 photo albums GIT";
 			sourceTree = "<group>";
@@ -79,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				824F8DA427985C9A00F6AB07 /* AppDelegate.swift */,
+				824F8DBF27985F7B00F6AB07 /* TabBarController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -103,6 +111,10 @@
 		824F8DBD27985E6700F6AB07 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				824F8DC22798601600F6AB07 /* MediaViewController.swift */,
+				824F8DC42798606000F6AB07 /* ForYouViewController.swift */,
+				824F8DC62798609C00F6AB07 /* AlbumsViewController.swift */,
+				824F8DC8279860E000F6AB07 /* SearchViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -182,8 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824F8DA927985C9A00F6AB07 /* ViewController.swift in Sources */,
+				824F8DC027985F7B00F6AB07 /* TabBarController.swift in Sources */,
+				824F8DC9279860E000F6AB07 /* SearchViewController.swift in Sources */,
+				824F8DC72798609C00F6AB07 /* AlbumsViewController.swift in Sources */,
 				824F8DA527985C9A00F6AB07 /* AppDelegate.swift in Sources */,
+				824F8DC52798606000F6AB07 /* ForYouViewController.swift in Sources */,
+				824F8DC32798601600F6AB07 /* MediaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
