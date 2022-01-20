@@ -100,7 +100,7 @@ class TypesOfMediaFilesCell: UICollectionViewCell {
         NSLayoutConstraint.activate([
 
             iconContainer.centerYAnchor.constraint(equalTo: safeAreaLayoutGuide.centerYAnchor),
-            iconContainer.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 8),
+            iconContainer.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: MetricsTypesOFMediaFilesCell.iconContainerLeadingAnchor),
             iconContainer.widthAnchor.constraint(equalTo: safeAreaLayoutGuide.heightAnchor),
             iconContainer.heightAnchor.constraint(equalTo: safeAreaLayoutGuide.heightAnchor),
 
@@ -154,4 +154,6 @@ enum MetricsTypesOFMediaFilesCell {
     static let arrowImageViewHeightAnchor: CGFloat = -18
 
     static let labelPhotoCountTrailingAnchorConstant: CGFloat = -30
+
+    static let iconContainerLeadingAnchor: CGFloat = 8
 }
